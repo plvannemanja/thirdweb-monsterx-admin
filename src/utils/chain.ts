@@ -1,3 +1,3 @@
-import { polygonAmoy } from "thirdweb/chains";
+import { polygon } from "thirdweb/chains";
 
-export default polygonAmoy;
+export default polygon;

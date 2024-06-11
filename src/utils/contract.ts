@@ -1,14 +1,14 @@
 import { getContract } from "thirdweb";
-import { polygonAmoy } from "thirdweb/chains";
+import { polygon } from "thirdweb/chains";
 import { client } from "./client";
 // get a contract
 export const contract = getContract({
   // the client you have created via `createThirdwebClient()`
   client,
   // the chain the contract is deployed on
-  chain: polygonAmoy,
+  chain: polygon,
   // the contract's address
-  address: "0x2dd0B003A8B034e4AFd7baa3Ab9124C6e7c2F118",
+  address: "0x4e4b76EFa8CA0E11D21B79860F2b4256ef435cF2",
 });
 
-export const address = "0x2dd0B003A8B034e4AFd7baa3Ab9124C6e7c2F118";
+export const address = "0x4e4b76EFa8CA0E11D21B79860F2b4256ef435cF2";
